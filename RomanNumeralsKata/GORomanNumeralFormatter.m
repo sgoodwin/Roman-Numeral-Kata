@@ -12,6 +12,12 @@
 
 - (NSString *)stringFromNumber:(NSNumber *)number{
     NSInteger value = [number integerValue];
+    if(value = 5){
+        return @"V";
+    }
+    if(value == 4){
+        return @"IV";
+    }
     if(value == 3){
         return @"III";
     }

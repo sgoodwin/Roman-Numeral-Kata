@@ -38,4 +38,15 @@
     STAssertTrue([result isEqualToString:@"III"], @"3 should be III");
 }
 
+- (void)testIV{
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:4]];
+    STAssertTrue([result isEqualToString:@"IV"], @"4 should be IV");
+}
+
+- (void)testV{
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:5]];
+    STAssertTrue([result isEqualToString:@"V"], @"5 should be V");
+}
+
+
 @end
