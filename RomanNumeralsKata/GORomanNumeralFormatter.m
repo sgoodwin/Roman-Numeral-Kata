@@ -11,7 +11,18 @@
 @implementation GORomanNumeralFormatter
 
 - (NSString *)stringFromNumber:(NSNumber *)number{
-    return @"I";
+    NSInteger value = [number integerValue];
+    if(value == 3){
+        return @"III";
+    }
+    if(value == 2){
+        return @"II";
+    }
+    if(value == 1){
+        return @"I";
+    }
+    
+    return nil;
 }
 
 @end

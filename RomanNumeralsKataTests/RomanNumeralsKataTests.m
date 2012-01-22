@@ -28,4 +28,14 @@
     STAssertTrue([result isEqualToString:@"I"], @"1 should be I");
 }
 
+- (void)testII{
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:2]];
+    STAssertTrue([result isEqualToString:@"II"], @"2 should be II");
+}
+
+- (void)testIII{
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:3]];
+    STAssertTrue([result isEqualToString:@"III"], @"3 should be III");
+}
+
 @end
