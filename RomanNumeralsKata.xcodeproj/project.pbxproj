@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B91E21614CBD20E006BA4DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B91E21514CBD20E006BA4DE /* Cocoa.framework */; };
+		9B91E22014CBD20E006BA4DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B91E21E14CBD20E006BA4DE /* InfoPlist.strings */; };
+		9B91E22214CBD20E006BA4DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91E22114CBD20E006BA4DE /* main.m */; };
+		9B91E22614CBD20E006BA4DE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9B91E22414CBD20E006BA4DE /* Credits.rtf */; };
+		9B91E22914CBD20E006BA4DE /* GOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91E22814CBD20E006BA4DE /* GOAppDelegate.m */; };
+		9B91E22C14CBD20F006BA4DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B91E22A14CBD20F006BA4DE /* MainMenu.xib */; };
+		9B91E23414CBD20F006BA4DE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B91E23314CBD20F006BA4DE /* SenTestingKit.framework */; };
+		9B91E23514CBD20F006BA4DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B91E21514CBD20E006BA4DE /* Cocoa.framework */; };
+		9B91E23D14CBD20F006BA4DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B91E23B14CBD20F006BA4DE /* InfoPlist.strings */; };
+		9B91E24014CBD20F006BA4DE /* RomanNumeralsKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91E23F14CBD20F006BA4DE /* RomanNumeralsKataTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B91E23614CBD20F006BA4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B91E20814CBD20E006BA4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B91E21014CBD20E006BA4DE;
+			remoteInfo = RomanNumeralsKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B91E21114CBD20E006BA4DE /* RomanNumeralsKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralsKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B91E21514CBD20E006BA4DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9B91E21814CBD20E006BA4DE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9B91E21914CBD20E006BA4DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9B91E21A14CBD20E006BA4DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B91E21D14CBD20E006BA4DE /* RomanNumeralsKata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RomanNumeralsKata-Info.plist"; sourceTree = "<group>"; };
+		9B91E21F14CBD20E006BA4DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B91E22114CBD20E006BA4DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B91E22314CBD20E006BA4DE /* RomanNumeralsKata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RomanNumeralsKata-Prefix.pch"; sourceTree = "<group>"; };
+		9B91E22514CBD20E006BA4DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9B91E22714CBD20E006BA4DE /* GOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOAppDelegate.h; sourceTree = "<group>"; };
+		9B91E22814CBD20E006BA4DE /* GOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOAppDelegate.m; sourceTree = "<group>"; };
+		9B91E22B14CBD20F006BA4DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9B91E23214CBD20F006BA4DE /* RomanNumeralsKataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralsKataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B91E23314CBD20F006BA4DE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9B91E23A14CBD20F006BA4DE /* RomanNumeralsKataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RomanNumeralsKataTests-Info.plist"; sourceTree = "<group>"; };
+		9B91E23C14CBD20F006BA4DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B91E23E14CBD20F006BA4DE /* RomanNumeralsKataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RomanNumeralsKataTests.h; sourceTree = "<group>"; };
+		9B91E23F14CBD20F006BA4DE /* RomanNumeralsKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanNumeralsKataTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B91E20E14CBD20E006BA4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91E21614CBD20E006BA4DE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B91E22E14CBD20F006BA4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91E23414CBD20F006BA4DE /* SenTestingKit.framework in Frameworks */,
+				9B91E23514CBD20F006BA4DE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B91E20614CBD20E006BA4DE = {
+			isa = PBXGroup;
+			children = (
+				9B91E21B14CBD20E006BA4DE /* RomanNumeralsKata */,
+				9B91E23814CBD20F006BA4DE /* RomanNumeralsKataTests */,
+				9B91E21414CBD20E006BA4DE /* Frameworks */,
+				9B91E21214CBD20E006BA4DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B91E21214CBD20E006BA4DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B91E21114CBD20E006BA4DE /* RomanNumeralsKata.app */,
+				9B91E23214CBD20F006BA4DE /* RomanNumeralsKataTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B91E21414CBD20E006BA4DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B91E21514CBD20E006BA4DE /* Cocoa.framework */,
+				9B91E23314CBD20F006BA4DE /* SenTestingKit.framework */,
+				9B91E21714CBD20E006BA4DE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B91E21714CBD20E006BA4DE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B91E21814CBD20E006BA4DE /* AppKit.framework */,
+				9B91E21914CBD20E006BA4DE /* CoreData.framework */,
+				9B91E21A14CBD20E006BA4DE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9B91E21B14CBD20E006BA4DE /* RomanNumeralsKata */ = {
+			isa = PBXGroup;
+			children = (
+				9B91E22714CBD20E006BA4DE /* GOAppDelegate.h */,
+				9B91E22814CBD20E006BA4DE /* GOAppDelegate.m */,
+				9B91E22A14CBD20F006BA4DE /* MainMenu.xib */,
+				9B91E21C14CBD20E006BA4DE /* Supporting Files */,
+			);
+			path = RomanNumeralsKata;
+			sourceTree = "<group>";
+		};
+		9B91E21C14CBD20E006BA4DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B91E21D14CBD20E006BA4DE /* RomanNumeralsKata-Info.plist */,
+				9B91E21E14CBD20E006BA4DE /* InfoPlist.strings */,
+				9B91E22114CBD20E006BA4DE /* main.m */,
+				9B91E22314CBD20E006BA4DE /* RomanNumeralsKata-Prefix.pch */,
+				9B91E22414CBD20E006BA4DE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B91E23814CBD20F006BA4DE /* RomanNumeralsKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B91E23E14CBD20F006BA4DE /* RomanNumeralsKataTests.h */,
+				9B91E23F14CBD20F006BA4DE /* RomanNumeralsKataTests.m */,
+				9B91E23914CBD20F006BA4DE /* Supporting Files */,
+			);
+			path = RomanNumeralsKataTests;
+			sourceTree = "<group>";
+		};
+		9B91E23914CBD20F006BA4DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B91E23A14CBD20F006BA4DE /* RomanNumeralsKataTests-Info.plist */,
+				9B91E23B14CBD20F006BA4DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B91E21014CBD20E006BA4DE /* RomanNumeralsKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B91E24314CBD20F006BA4DE /* Build configuration list for PBXNativeTarget "RomanNumeralsKata" */;
+			buildPhases = (
+				9B91E20D14CBD20E006BA4DE /* Sources */,
+				9B91E20E14CBD20E006BA4DE /* Frameworks */,
+				9B91E20F14CBD20E006BA4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomanNumeralsKata;
+			productName = RomanNumeralsKata;
+			productReference = 9B91E21114CBD20E006BA4DE /* RomanNumeralsKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B91E23114CBD20F006BA4DE /* RomanNumeralsKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B91E24614CBD20F006BA4DE /* Build configuration list for PBXNativeTarget "RomanNumeralsKataTests" */;
+			buildPhases = (
+				9B91E22D14CBD20F006BA4DE /* Sources */,
+				9B91E22E14CBD20F006BA4DE /* Frameworks */,
+				9B91E22F14CBD20F006BA4DE /* Resources */,
+				9B91E23014CBD20F006BA4DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B91E23714CBD20F006BA4DE /* PBXTargetDependency */,
+			);
+			name = RomanNumeralsKataTests;
+			productName = RomanNumeralsKataTests;
+			productReference = 9B91E23214CBD20F006BA4DE /* RomanNumeralsKataTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B91E20814CBD20E006BA4DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "SNAP Interactive";
+			};
+			buildConfigurationList = 9B91E20B14CBD20E006BA4DE /* Build configuration list for PBXProject "RomanNumeralsKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B91E20614CBD20E006BA4DE;
+			productRefGroup = 9B91E21214CBD20E006BA4DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B91E21014CBD20E006BA4DE /* RomanNumeralsKata */,
+				9B91E23114CBD20F006BA4DE /* RomanNumeralsKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B91E20F14CBD20E006BA4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91E22014CBD20E006BA4DE /* InfoPlist.strings in Resources */,
+				9B91E22614CBD20E006BA4DE /* Credits.rtf in Resources */,
+				9B91E22C14CBD20F006BA4DE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B91E22F14CBD20F006BA4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91E23D14CBD20F006BA4DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B91E23014CBD20F006BA4DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B91E20D14CBD20E006BA4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91E22214CBD20E006BA4DE /* main.m in Sources */,
+				9B91E22914CBD20E006BA4DE /* GOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B91E22D14CBD20F006BA4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B91E24014CBD20F006BA4DE /* RomanNumeralsKataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B91E23714CBD20F006BA4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B91E21014CBD20E006BA4DE /* RomanNumeralsKata */;
+			targetProxy = 9B91E23614CBD20F006BA4DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B91E21E14CBD20E006BA4DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B91E21F14CBD20E006BA4DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B91E22414CBD20E006BA4DE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B91E22514CBD20E006BA4DE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9B91E22A14CBD20F006BA4DE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B91E22B14CBD20F006BA4DE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9B91E23B14CBD20F006BA4DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B91E23C14CBD20F006BA4DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B91E24114CBD20F006BA4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9B91E24214CBD20F006BA4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9B91E24414CBD20F006BA4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomanNumeralsKata/RomanNumeralsKata-Prefix.pch";
+				INFOPLIST_FILE = "RomanNumeralsKata/RomanNumeralsKata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B91E24514CBD20F006BA4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomanNumeralsKata/RomanNumeralsKata-Prefix.pch";
+				INFOPLIST_FILE = "RomanNumeralsKata/RomanNumeralsKata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9B91E24714CBD20F006BA4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomanNumeralsKata.app/Contents/MacOS/RomanNumeralsKata";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomanNumeralsKata/RomanNumeralsKata-Prefix.pch";
+				INFOPLIST_FILE = "RomanNumeralsKataTests/RomanNumeralsKataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9B91E24814CBD20F006BA4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomanNumeralsKata.app/Contents/MacOS/RomanNumeralsKata";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomanNumeralsKata/RomanNumeralsKata-Prefix.pch";
+				INFOPLIST_FILE = "RomanNumeralsKataTests/RomanNumeralsKataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B91E20B14CBD20E006BA4DE /* Build configuration list for PBXProject "RomanNumeralsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B91E24114CBD20F006BA4DE /* Debug */,
+				9B91E24214CBD20F006BA4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B91E24314CBD20F006BA4DE /* Build configuration list for PBXNativeTarget "RomanNumeralsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B91E24414CBD20F006BA4DE /* Debug */,
+				9B91E24514CBD20F006BA4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B91E24614CBD20F006BA4DE /* Build configuration list for PBXNativeTarget "RomanNumeralsKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B91E24714CBD20F006BA4DE /* Debug */,
+				9B91E24814CBD20F006BA4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B91E20814CBD20E006BA4DE /* Project object */;
+}
