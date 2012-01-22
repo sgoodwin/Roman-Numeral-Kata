@@ -25,27 +25,27 @@
 
 - (void)testI{
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:1]];
-    STAssertTrue([result isEqualToString:@"I"], @"1 should be I");
+    STAssertTrue([result isEqualToString:@"I"], @"%@ should be I", result);
 }
 
 - (void)testII{
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:2]];
-    STAssertTrue([result isEqualToString:@"II"], @"2 should be II");
+    STAssertTrue([result isEqualToString:@"II"], @"%@ should be II", result);
 }
 
 - (void)testIII{
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:3]];
-    STAssertTrue([result isEqualToString:@"III"], @"3 should be III");
+    STAssertTrue([result isEqualToString:@"III"], @"%@ should be III", result);
 }
 
 - (void)testIV{
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:4]];
-    STAssertTrue([result isEqualToString:@"IV"], @"4 should be IV");
+    STAssertTrue([result isEqualToString:@"IV"], @"%@ should be IV", result);
 }
 
 - (void)testV{
     NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:5]];
-    STAssertTrue([result isEqualToString:@"V"], @"5 should be V");
+    STAssertTrue([result isEqualToString:@"V"], @"%@ should be V", result);
 }
 
 

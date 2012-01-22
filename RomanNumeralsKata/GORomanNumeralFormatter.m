@@ -11,24 +11,22 @@
 @implementation GORomanNumeralFormatter
 
 - (NSString *)stringFromNumber:(NSNumber *)number{
+    NSMutableString *result = [NSMutableString string];
     NSInteger value = [number integerValue];
-    if(value = 5){
-        return @"V";
+    while(value >= 5){
+        [result appendString:@"V"];
+        value -= 5;
     }
-    if(value == 4){
-        return @"IV";
+    while(value >= 4){
+        [result appendString:@"IV"];
+        value -= 4;
     }
-    if(value == 3){
-        return @"III";
-    }
-    if(value == 2){
-        return @"II";
-    }
-    if(value == 1){
-        return @"I";
+    while(value >= 1){
+        [result appendString:@"I"];
+        value--;
     }
     
-    return nil;
+    return result;
 }
 
 @end
