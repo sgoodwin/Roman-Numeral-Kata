@@ -7,8 +7,10 @@
 //
 
 #import "RomanNumeralsKataTests.h"
+#import "GORomanNumeralFormatter.h"
 
 @implementation RomanNumeralsKataTests
+@synthesize formatter;
 
 - (void)setUp
 {
@@ -21,9 +23,9 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STAssertTrue(YES, @"Awesome, it works");
+- (void)testI{
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:1]];
+    STAssertTrue([result isEqualToString:@"I"], @"1 should be I");
 }
 
 @end

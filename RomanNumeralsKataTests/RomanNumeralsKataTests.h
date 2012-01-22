@@ -8,6 +8,7 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
+@class GORomanNumeralFormatter;
 @interface RomanNumeralsKataTests : SenTestCase
 @property(nonatomic, retain) GORomanNumeralFormatter *formatter;
 @end

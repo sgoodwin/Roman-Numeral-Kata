@@ -17,6 +17,7 @@
 		9B91E23514CBD20F006BA4DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B91E21514CBD20E006BA4DE /* Cocoa.framework */; };
 		9B91E23D14CBD20F006BA4DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B91E23B14CBD20F006BA4DE /* InfoPlist.strings */; };
 		9B91E24014CBD20F006BA4DE /* RomanNumeralsKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91E23F14CBD20F006BA4DE /* RomanNumeralsKataTests.m */; };
+		9B91E24B14CBD31F006BA4DE /* GORomanNumeralFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B91E24A14CBD31F006BA4DE /* GORomanNumeralFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		9B91E23C14CBD20F006BA4DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B91E23E14CBD20F006BA4DE /* RomanNumeralsKataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RomanNumeralsKataTests.h; sourceTree = "<group>"; };
 		9B91E23F14CBD20F006BA4DE /* RomanNumeralsKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanNumeralsKataTests.m; sourceTree = "<group>"; };
+		9B91E24914CBD31F006BA4DE /* GORomanNumeralFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORomanNumeralFormatter.h; sourceTree = "<group>"; };
+		9B91E24A14CBD31F006BA4DE /* GORomanNumeralFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORomanNumeralFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			children = (
 				9B91E22714CBD20E006BA4DE /* GOAppDelegate.h */,
 				9B91E22814CBD20E006BA4DE /* GOAppDelegate.m */,
+				9B91E24914CBD31F006BA4DE /* GORomanNumeralFormatter.h */,
+				9B91E24A14CBD31F006BA4DE /* GORomanNumeralFormatter.m */,
 				9B91E22A14CBD20F006BA4DE /* MainMenu.xib */,
 				9B91E21C14CBD20E006BA4DE /* Supporting Files */,
 			);
@@ -263,6 +268,7 @@
 			files = (
 				9B91E22214CBD20E006BA4DE /* main.m in Sources */,
 				9B91E22914CBD20E006BA4DE /* GOAppDelegate.m in Sources */,
+				9B91E24B14CBD31F006BA4DE /* GORomanNumeralFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
