@@ -11,28 +11,22 @@
 @implementation GORomanNumeralFormatter
 
 - (NSString *)stringFromNumber:(NSNumber *)number{
+    NSDictionary *possibles = [NSDictionary dictionaryWithObjectsAndKeys:
+                               @"X", [NSNumber numberWithInt:10], 
+                               @"IX", [NSNumber numberWithInt:9], 
+                               @"V", [NSNumber numberWithInt:5],
+                               @"IV", [NSNumber numberWithInt:4],
+                               @"I", [NSNumber numberWithInt:1], nil];
+    
     NSMutableString *result = [NSMutableString string];
-    NSInteger value = [number integerValue];
-    while(value >= 10){
-        [result appendString:@"X"];
-        value -= 10;
-    }
-    while(value >= 9){
-        [result appendString:@"IX"];
-        value -= 9;
-    }
-    while(value >= 5){
-        [result appendString:@"V"];
-        value -= 5;
-    }
-    while(value >= 4){
-        [result appendString:@"IV"];
-        value -= 4;
-    }
-    while(value >= 1){
-        [result appendString:@"I"];
-        value--;
-    }
+    __block NSInteger value = [number integerValue];
+    [possibles enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+        NSInteger arabic = [key integerValue];
+        while(value >= arabic){
+            [result appendString:obj];
+            value = value - arabic;
+        }
+    }];
     
     return result;
 }
