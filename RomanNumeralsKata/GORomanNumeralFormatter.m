@@ -13,6 +13,14 @@
 - (NSString *)stringFromNumber:(NSNumber *)number{
     NSMutableString *result = [NSMutableString string];
     NSInteger value = [number integerValue];
+    while(value >= 10){
+        [result appendString:@"X"];
+        value -= 10;
+    }
+    while(value >= 9){
+        [result appendString:@"IX"];
+        value -= 9;
+    }
     while(value >= 5){
         [result appendString:@"V"];
         value -= 5;

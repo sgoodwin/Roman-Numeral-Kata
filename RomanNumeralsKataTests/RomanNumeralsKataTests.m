@@ -48,5 +48,29 @@
     STAssertTrue([result isEqualToString:@"V"], @"%@ should be V", result);
 }
 
+- (void)testVI{
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:6]];
+    STAssertTrue([result isEqualToString:@"VI"], @"%@ should be VI", result);
+}
+
+- (void)testVII{
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:7]];
+    STAssertTrue([result isEqualToString:@"VII"], @"%@ should be VII", result);
+}
+
+- (void)testVIII{
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:8]];
+    STAssertTrue([result isEqualToString:@"VIII"], @"%@ should be VIII", result);
+}
+
+- (void)testIX{
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:9]];
+    STAssertTrue([result isEqualToString:@"IX"], @"%@ should be IX", result);
+}
+
+- (void)testX{
+    NSString *result = [self.formatter stringFromNumber:[NSNumber numberWithInt:10]];
+    STAssertTrue([result isEqualToString:@"X"], @"%@ should be X", result);
+}
 
 @end
