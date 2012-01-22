@@ -11,19 +11,19 @@
 @implementation GORomanNumeralFormatter
 
 - (NSString *)stringFromNumber:(NSNumber *)number{
-    NSDictionary *possibles = [NSDictionary dictionaryWithObjectsAndKeys:
-                               @"X", [NSNumber numberWithInt:10], 
-                               @"IX", [NSNumber numberWithInt:9], 
-                               @"V", [NSNumber numberWithInt:5],
-                               @"IV", [NSNumber numberWithInt:4],
-                               @"I", [NSNumber numberWithInt:1], nil];
+    NSArray *possibles = [NSArray arrayWithObjects:
+                          [NSArray arrayWithObjects:@"X", [NSNumber numberWithInt:10], nil],
+                          [NSArray arrayWithObjects:@"IX", [NSNumber numberWithInt:9], nil], 
+                          [NSArray arrayWithObjects:@"V", [NSNumber numberWithInt:5], nil],
+                          [NSArray arrayWithObjects:@"IV", [NSNumber numberWithInt:4], nil],
+                          [NSArray arrayWithObjects:@"I", [NSNumber numberWithInt:1], nil], nil];
     
     NSMutableString *result = [NSMutableString string];
     __block NSInteger value = [number integerValue];
-    [possibles enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
-        NSInteger arabic = [key integerValue];
+    [possibles enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        NSInteger arabic = [[obj objectAtIndex:1] integerValue];
         while(value >= arabic){
-            [result appendString:obj];
+            [result appendString:[obj objectAtIndex:0]];
             value = value - arabic;
         }
     }];
